@@ -1,0 +1,1 @@
+[id]: http://muris.hr/marko_privatno/WiFi_tactics.PNG  "WiFi tactics UI"
