@@ -1,7 +1,26 @@
-A computer program to calculate indoor coverage by wireless networks
-====================================================================
-
+WiFi indoor coverage calculator
+===============================
 ![WiFi tactics UI](http://muris.hr/marko_privatno/WiFi_tactics.PNG "WiFi tactics UI")
 
-In recent years there has been an exceptional growth of the WLAN, and this trend is expected to continue. Increased demands for wireless services are accentuated by devices that can connect to such networks which have become very cheap and available to everyone. In such environments, designing and scaling WLAN systems is extremely important. This determines the number, location and configuration (eg frequency, power levels, etc.) of access points, and thus the power capacity of a given space.   Coverage, especially indoors, depends on various factors such as the very characteristics of the device, the emitted power, interference, loss of power due to the propagation of electromagnetic radiation, multipath propagation, fading due to shadowing, due to signal propagation delays and obstacles such as walls, metals and even people. In literature one can find several methods and algorithms that elaborate mathematical models in order to solve this problem and it is these ideas which are addressed in this paper. Computer program was made for simulation scenarios of WIFI coverage. Application works for the set of input parameters calculating signal coverage of area by the given model and graphically displays signal strength and quality using the heat map.
+About
+-----
+This is a small Java app which takes layout and device parameters as input and generates heat-map of signal strength based on empiric coverage models such as Montley Kennan.
 
+Usage
+-----
+Click "Oprema" to select AP and place it on map. Double click it to edit parameters such as:
+- Antenna gain
+- Transmission power
+Click "Zid" to select walls. Drag a line on a map. Double click to select thickness:
+- Light
+- Thick
+- Metal
+Choose empiric model form dropdown menu. When finished click "Izradi" to generate map.
+
+Readings
+--------
+Move your mouse pointer over the map. In upper-right corner read S: for signal strength in dBm and A: for dominant AP.
+
+License
+-------
+GNU GPL
