@@ -11,10 +11,12 @@ Usage
 Click "Oprema" to select AP and place it on map. Double click it to edit parameters such as:
 - Antenna gain
 - Transmission power
+
 Click "Zid" to select walls. Drag a line on a map. Double click to select thickness:
 - Light
 - Thick
 - Metal
+
 Choose empiric model form dropdown menu. When finished click "Izradi" to generate map.
 
 Readings
