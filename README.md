@@ -6,6 +6,11 @@ About
 -----
 This is a small Java app which takes layout and device parameters as input and generates heat-map of signal strength based on empiric coverage models such as Montley Kennan.
 
+Run
+---
+Get git and compile for latest build. You can also get Windows exec [here](http://muris.hr/marko_privatno/dr444.exe "WiFi tactics").
+
+
 Usage
 -----
 Click "Oprema" to select AP and place it on map. Double click it to edit parameters such as:
